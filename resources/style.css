@@ -29,4 +29,9 @@ header nav p {
   font-size: 3rem;
   color: black;
   border-bottom: 2px solid black;
+  font-family: "Abril Fatface", cursive;
+}
+
+header nav p:hover {
+  background-color: #f3d250;
 }
