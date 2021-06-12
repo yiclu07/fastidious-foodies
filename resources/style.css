@@ -1,0 +1,32 @@
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header & Nav Section */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #ececec;
+  z-index: 999;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 50vw 1rem 1rem;
+}
+
+header nav img {
+  max-width: 100px;
+}
+
+header nav p {
+  font-size: 3rem;
+  color: black;
+  border-bottom: 2px solid black;
+}
