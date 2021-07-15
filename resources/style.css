@@ -13,17 +13,19 @@ a {
 /* Header & Nav Section */
 header {
   width: 100%;
-  background-color: #ececec;
+  height: 100vh;
 }
 
 header nav {
   position: fixed;
   z-index: 999;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   padding: 1rem;
-  height: 12vh;
+  height: 10vh;
+  background-color: #a7d2cb;
+  width: 100vw;
 }
 
 header nav img {
@@ -32,22 +34,21 @@ header nav img {
 
 header nav p {
   font-size: 3rem;
-  color: black;
-  border-bottom: 2px solid black;
+  color: #1d1410;
+
   font-family: "Abril Fatface", cursive;
   margin: 0 1rem;
 }
 
 header nav p:hover {
-  background-color: #f3d250;
+  background-color: #f2d388;
 }
 
 header section {
   position: relative;
-  top: 12vh;
-  height: 88vh;
+  top: 10vh;
+  height: 90vh;
   background-image: url("./images/drink-tasting.jpg");
-
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -59,4 +60,19 @@ header section h1 {
   top: 50%;
   color: white;
   text-shadow: 3px 3px black;
+}
+
+main {
+  background-color: #f9f9f1;
+  text-align: center;
+}
+
+h2 {
+  color: #874c62;
+  font-size: 3rem;
+}
+
+#introduction p {
+  color: #1d1410;
+  font-size: 1.5rem;
 }
